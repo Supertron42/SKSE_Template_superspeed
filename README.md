@@ -96,6 +96,31 @@ Add the following **User Variables**:
 - Download: https://github.com/microsoft/vcpkg
 - Extract contents of `vcpkg-master` into `C:\sksedev\vcpkg`
 
+- In the `vcpkg` folder, **double-click** `bootstrap-vcpkg.bat`  
+  This will create `vcpkg.exe`
+
+- To make sure it's updated, open **PowerShell** and run the following commands:
+
+```powershell
+cd C:\sksedev\vcpkg
+```
+
+```powershell
+git pull
+```
+
+```powershell
+.\bootstrap-vcpkg.bat
+```
+
+```powershell
+.\vcpkg.exe upgrade
+```
+
+```powershell
+.\vcpkg upgrade --no-dry-run
+```
+
 ---
 
 ## 🧠 Open the Template in Visual Studio
