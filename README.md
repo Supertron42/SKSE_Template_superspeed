@@ -166,10 +166,10 @@ Change to:
 Then in the `.cpp` file with the new name:
 
 ```cpp
-#include "YourPluginName.h"```
-> Should be line 5.
-```constexpr auto INI_PATH = "Data/SKSE/Plugins/YourPluginName.ini";```
-> Should be line 17.
+#include "YourPluginName.h" // Line 5
+...
+constexpr auto INI_PATH = "Data/SKSE/Plugins/YourPluginName.ini"; // Line 17
+```
 
 ---
 
@@ -181,3 +181,4 @@ I'm still learning SKSE plugin development but wanted to make setup easier for e
 If this guide has issues or breaks, let me know and I’ll update it.
 
 **Happy modding!**
+
