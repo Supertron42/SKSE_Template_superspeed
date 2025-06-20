@@ -11,7 +11,7 @@ If compiled and loaded into the game correctly, the player will run 5x faster.
 - You're using **Windows 10 or 11**
 - You know how to download from GitHub (Code → Download ZIP)
 - You have at least one of **Skyrim LE / VR / SE / AE**.
-- You have **SKSE** installed: https://skse.silverlock.org/
+- You have **SKSE** installed to your Skyrim folder: https://skse.silverlock.org/
 - You use **Mod Organizer 2**  
   > (Adjusting for Vortex should be easy, but up to you. NOT recommended to NOT use a mod manager.)
 - You're using an **administrator Windows account** (can install programs)
