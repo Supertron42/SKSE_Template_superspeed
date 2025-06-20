@@ -62,7 +62,7 @@ Add the following **User Variables**:
 
 ## 📥 Required Downloads & Install Locations
 
-### SKSE Template
+#### SKSE Template
 
 - Create folder: `C:\sksedev\sksetemplate`
 - Download: `https://github.com/Supertron42/SKSE_Template_superspeed`
@@ -70,7 +70,7 @@ Add the following **User Variables**:
 
 ---
 
-### Visual Studio 2022 Community
+#### Visual Studio 2022 Community
 
 - Download: https://visualstudio.microsoft.com/downloads/
 - Install to default location.
@@ -80,7 +80,7 @@ Add the following **User Variables**:
 
 ---
 
-### CMake
+#### CMake
 
 > ❗ **DO NOT** use CMake v4.x.x — use **v3.31.8** only.
 
@@ -90,7 +90,7 @@ Add the following **User Variables**:
 
 ---
 
-### VCPKG
+#### VCPKG
 
 - Create folder: `C:\sksedev\vcpkg`
 - Download: https://github.com/microsoft/vcpkg
@@ -183,7 +183,7 @@ Change to:
 
 ---
 
-### In Visual Studio:
+#### In Visual Studio:
 
 - Rename `PlayerSpeedBoost.cpp` → `YourPluginName.cpp`
 - Rename `PlayerSpeedBoost.h` → `YourPluginName.h`
