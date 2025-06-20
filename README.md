@@ -165,6 +165,15 @@ project(YourPluginName VERSION 0.0.1 LANGUAGES CXX)
 ```
 > No spaces.
 
+```cmake
+add_commonlibsse_plugin(${PROJECT_NAME} SOURCES PlayerSpeedBoost.cpp)
+```
+Change to:
+```cmake
+add_commonlibsse_plugin(${PROJECT_NAME} SOURCES YourPluginName.cpp)
+```
+> No spaces.
+
 Edit `vcpkg.json`:
 ```json
 "name": "playerspeedboost",
@@ -174,15 +183,6 @@ Change to:
 "name": "yourpluginname",
 ```
 > All lowercase, no spaces.
-
-```cmake
-add_commonlibsse_plugin(${PROJECT_NAME} SOURCES PlayerSpeedBoost.cpp)
-```
-Change to:
-```cmake
-add_commonlibsse_plugin(${PROJECT_NAME} SOURCES YourPluginName.cpp)
-```
-> No spaces.
 
 ---
 
