@@ -65,8 +65,8 @@ Add the following **User Variables**:
 ### SKSE Template
 
 - Create folder: `C:\sksedev\sksetemplate`
-- Download: **[TODO: Add GitHub repo link here]**
-- Extract contents of `SKSE_Template_Supertron-main` into `C:\sksedev\sksetemplate`
+- Download: `https://github.com/Supertron42/SKSE_Template_superspeed`
+- Extract contents of `SKSE_Template_superspeed` into `C:\sksedev\sksetemplate`
 
 ---
 
