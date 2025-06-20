@@ -37,23 +37,23 @@ This guide assumes that path. You can change it, but you’ll have to update the
 
 Add the following **User Variables**:
 
-### CMake
+#### CMake
 - Name: `CMAKE_ROOT`  
 - Value: `C:\Cmake`  
   > _We will install CMake here later._
 
-### Skyrim Folder
+#### Skyrim Folder
 - Name: `SKYRIM_FOLDER`  
 - Value: `C:\path-to-your-skyrim-install\Skyrim Special Edition`  
   > _Copy the full path from your Skyrim installation._
 
-### (Optional) Skyrim Mods Folder
+#### (Optional) Skyrim Mods Folder
 - Name: `SKYRIM_MODS_FOLDER`  
 - Value: `D:\pathtoyourmodsfolder\mods`  
   > _Makes it easier to deploy the DLL into the mods folder for MO2/Vortex._  
   > ⚠️ Do **not** path this directly to an `SKSE` folder.
 
-### VCPKG
+#### VCPKG
 - Name: `VCPKG_ROOT`  
 - Value: `C:\sksedev\vcpkg`  
   > _We will install vcpkg here later._
