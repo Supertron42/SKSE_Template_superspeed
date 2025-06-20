@@ -175,6 +175,15 @@ Change to:
 ```
 > All lowercase, no spaces.
 
+```cmake
+add_commonlibsse_plugin(${PROJECT_NAME} SOURCES PlayerSpeedBoost.cpp)
+```
+Change to:
+```cmake
+add_commonlibsse_plugin(${PROJECT_NAME} SOURCES YourPluginName.cpp)
+```
+> No spaces.
+
 ---
 
 #### In Visual Studio:
