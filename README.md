@@ -115,6 +115,10 @@ git pull
 .\vcpkg upgrade --no-dry-run
 ```
 
+```powershell
+.\vcpkg install spdlog:x64-windows-static
+```
+
 ---
 
 ## 🧠 Open the Template in Visual Studio
