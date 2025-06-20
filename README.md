@@ -68,8 +68,6 @@ Add the following **User Variables**:
 - Download: `https://github.com/Supertron42/SKSE_Template_superspeed`
 - Extract contents of `SKSE_Template_superspeed` into `C:\sksedev\sksetemplate`
 
----
-
 #### Visual Studio 2022 Community
 
 - Download: https://visualstudio.microsoft.com/downloads/
@@ -78,8 +76,6 @@ Add the following **User Variables**:
 
 > If already installed, rerun the installer and import `sksetemplate.vsconfig` again.
 
----
-
 #### CMake
 
 > ❗ **DO NOT** use CMake v4.x.x — use **v3.31.8** only.
@@ -87,8 +83,6 @@ Add the following **User Variables**:
 - Download: https://cmake.org/download/  
   _(File: `cmake-3.31.8-windows-x86_64.msi`)_
 - Install to C:\Cmake, then use default settings. 
-
----
 
 #### VCPKG
 
